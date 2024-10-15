@@ -18,9 +18,9 @@ export async function routes(app: FastifyInstance) {
   
   app.post("/emotions", async (request, reply) => {
     const createEmotionBodySchema = z.object({
-      user_id: z.string().uuid(), // Ensure user_id is a valid UUID
-      emotion_type: z.enum(["positive", "negative"]), // 'positive' or 'negative' emotion
-      intensity: z.number().int().min(1).max(10), // Intensity must be between 1 and 10
+      user_id: z.string().uuid(), 
+      emotion_type: z.enum(["positive", "negative"]), 
+      intensity: z.number().int().min(1).max(10), 
     });
     
     const { user_id, emotion_type, intensity } = createEmotionBodySchema.parse(request.body);
