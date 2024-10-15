@@ -14,7 +14,7 @@ A backend service using Fastify, Knex, and SQLite with TypeScript and Zod for bu
 ## Installation
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/cloudwalk.git
+    git clone github.com/yourusername/cloudwalk.git](https://github.com/lcoelho3412/CloudWalk
     cd cloudwalk
     ```
 2. **Install dependencies**:
