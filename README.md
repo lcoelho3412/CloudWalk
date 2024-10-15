@@ -3,6 +3,9 @@
 ## Description
 A backend service using Fastify, Knex, and SQLite with TypeScript and Zod for building robust, type-safe endpoints.
 
+## App Diagram 
+![image](../Cloudwalk/images/App_Entity_Relationship.png)
+
 ## Features
 - **User Creation**: Create a new user.
 - **Emotion Logging**: Log emotions for users and update their credit limits.
