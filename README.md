@@ -4,7 +4,7 @@
 A backend service using Fastify, Knex, and SQLite with TypeScript and Zod for building robust, type-safe endpoints.
 
 ## App Diagram 
-![image](../Cloudwalk/images/App_Entity_Relationship.png)
+![image](../Cloudwalk/images/AppDiagram.png)
 
 ## Features
 - **User Creation**: Create a new user.
