@@ -14,7 +14,7 @@ A backend service using Fastify, Knex, and SQLite with TypeScript and Zod for bu
 ## Installation
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/cloudwalk.git
+    git clone github.com/yourusername/cloudwalk.git](https://github.com/lcoelho3412/CloudWalk
     cd cloudwalk
     ```
 2. **Install dependencies**:
@@ -131,3 +131,29 @@ Here are some example API requests and responses:
 - **Knex**: SQL query builder for relational databases.
 - **SQLite3**: SQL database engine.
 - **TypeScript**: Superset of JavaScript that
+
+  ## Improvements for the Application
+
+- [ ] **Add Apache Kafka for Emotion Streams**
+  - Set up a Kafka cluster to handle streaming of emotions.
+  - Publish emotions to a Kafka topic and process updates asynchronously.
+
+- [ ] **Add Authentication and Authorization**
+  - Implement JWT-based authentication.
+  - Restrict access to certain routes for authorized users only.
+
+- [ ] **Add Caching for Frequently Accessed Data**
+  - Implement Redis caching for frequently requested data (e.g., `/users`, `/credit-limits`).
+
+- [ ] **Implement Data Validation Middleware**
+  - Refactor validation logic into reusable middleware for routes.
+
+- [ ] **Add Unit and Integration Testing**
+  - Use Jest or Mocha to write tests for routes, database queries, and Kafka consumers.
+
+- [ ] **Add WebSockets for Real-Time Credit Limit Updates**
+  - Implement WebSocket connections for instant credit limit updates to the client.
+
+- [ ] **Enhance Credit Limit Calculation**
+  - Refactor the credit limit calculation to consider historical emotion data and advanced logic.
+
